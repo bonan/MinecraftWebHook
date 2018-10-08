@@ -1,0 +1,31 @@
+## Define commands under /webhook
+commands:
+
+## Example that adds "/webhook on" and "/webhook off" commands that
+##   operate two different philips hue light
+
+##
+#commands:
+#  on:
+#    1:
+#      url: http://192.168.1.99/api/username/lights/1/state
+#      method: PUT
+#      data: '{"on":true}'
+#      Content-Type: application/json
+#    2:
+#      url: http://192.168.1.99/api/username/lights/2/state
+#      method: PUT
+#      data: '{"on":true}'
+#      Content-Type: application/json
+#  off:
+#    1:
+#      url: http://192.168.1.99/api/username/lights/1/state
+#      method: PUT
+#      data: '{"on":false}'
+#      Content-Type: application/json
+#    2:
+#      url: http://192.168.1.99/api/username/lights/2/state
+#      method: PUT
+#      data: '{"on":false}'
+#      Content-Type: application/json
+

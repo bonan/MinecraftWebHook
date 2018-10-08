@@ -1,0 +1,13 @@
+name: WebHook
+main: se.bonan.minecraft.webhook.WebHook
+version: 0.1
+author: bonaan
+commands:
+  webhook:
+    description: Handles webhooks, see /webhook help
+    usage: /webhook help
+    permission: webhook.use
+permissions:
+  webhook.use:
+    description: Can use /webhook
+    default: true
